@@ -1,5 +1,6 @@
-# OpenDownload3
+# OpenDownload3      
 
+[![Add to Firefox](https://user-images.githubusercontent.com/8534298/159437285-2021983a-04bb-4760-bacc-2ba7b412f03b.png)](https://addons.mozilla.org/en-US/firefox/addon/opendownload3/)
 
 https://user-images.githubusercontent.com/8534298/159415664-1e02bcb3-70fe-4516-82b9-5c3da81c2d5e.mp4
 
