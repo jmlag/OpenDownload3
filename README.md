@@ -1,6 +1,8 @@
 # OpenDownload3
 
 
+https://user-images.githubusercontent.com/8534298/159415664-1e02bcb3-70fe-4516-82b9-5c3da81c2d5e.mp4
+
 
 This extension allows you to automatically download executables to your temporary files folder and run them.
 
@@ -8,7 +10,7 @@ If you are installing a program, this is useful because you will not have to man
 
 Currently only supports Firefox on Windows.
 
-The project is named in homage to [OpenDownload²](https://addons.thunderbird.net/en-us/firefox/addon/opendownload-10902/) and its predecessor, but is not otherwise related.
+The project is named in homage to [OpenDownloadÂ²](https://addons.thunderbird.net/en-us/firefox/addon/opendownload-10902/) and its predecessor, but is not otherwise related.
 
 ---
 
