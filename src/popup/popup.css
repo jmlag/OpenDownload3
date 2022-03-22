@@ -1,0 +1,72 @@
+@import "../common/darkmode.css";
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #23222b;
+    color: #ffffff;
+  }
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.panel {
+  padding-top: 15vh;
+}
+
+.panel-section-header {
+  display: flex;
+  justify-content: center;
+  margin: 8px 8px 0px 8px;
+}
+
+.text-section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-section-header {
+  margin: 8px;
+}
+
+.panel-section-footer {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.panel-section-footer-button {
+  flex: 1 1 0px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.divider {
+  width: 2px;
+}
+
+#open {
+  background-color: #336600;
+}
+
+#delete {
+  background-color: #cc0000;
+}
+
+#dont-open {
+  background-color: #660066;
+}
+
+#show-folder {
+  background-color: #660066;
+}
