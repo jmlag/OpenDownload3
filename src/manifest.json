@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "OpenDownload3",
+  "description": "Browser extension that enables you to automatically download executables to your temporary files folder and run them.",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/jmlag/OpenDownload3",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@opendownload3",
+      "strict_min_version": "59.0a1"
+    }
+  },
+  "icons": {
+    "48": "icon-48.png"
+  },
+  "permissions": [
+    "<all_urls>",
+    "downloads",
+    "downloads.open",
+    "webRequest",
+    "webRequestBlocking",
+    "storage"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  }
+}

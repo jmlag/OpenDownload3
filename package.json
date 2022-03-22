@@ -1,0 +1,26 @@
+{
+  "name": "opendownload3",
+  "version": "0.0.1",
+  "description": "Browser extension that enables you to automatically download executables to your temporary files folder and run them.",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/jmlag/OpenDownload3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmlag/OpenDownload3.git"
+  },
+  "scripts": {
+    "start": "npx web-ext run --browser-console",
+    "build": "npx web-ext build --overwrite-dest"
+  },
+  "main": "background.js",
+  "webExt": {
+    "sourceDir": "src"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.25.4",
+    "web-ext": "^6.7.0"
+  }
+}
