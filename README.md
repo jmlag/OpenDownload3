@@ -82,6 +82,8 @@ You can:
 
 ## Building and Developement
 
+`npm run copy-modules`
+
 `npm start` or `npx web-ext run`
 
 To build:
