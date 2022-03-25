@@ -135,15 +135,17 @@ async function checkHeaders(resObj) {
   return EMPTY_OBJ;
 }
 
-async function initialize() {
-  try {
-    storage.sync.set({ config: defaultConfig });
-    const { installType, homepageUrl } = await management.getSelf();
-    if (installType !== 'development') {
-      tabs.create({ url: `${homepageUrl}#setup-and-install` });
+async function initialize({ reason, temporary }) {
+  if (reason === 'install') {
+    try {
+      storage.sync.set({ config: defaultConfig });
+      const { installType, homepageUrl } = await management.getSelf();
+      if (!temporary || installType !== 'development') {
+        tabs.create({ url: `${homepageUrl}#setup-and-install` });
+      }
+    } catch (error) {
+      console.error('Error initializing (OpenDownload3):', error.message, `\n${error.stack}`);
     }
-  } catch (error) {
-    console.error('Error initializing (OpenDownload3):', error.message, `\n${error.stack}`);
   }
 }
 
