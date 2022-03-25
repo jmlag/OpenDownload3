@@ -80,7 +80,7 @@ async function openPopup(downloadId, filename) {
   const { width, height, top, left } = await windows.get(windows.WINDOW_ID_CURRENT);
   const { id: windowId } = await windows.create({
     url: [
-      `popup/popup.html?id=${downloadId}&filename=${filename}`,
+      `popup/popup.html?id=${downloadId}&filename=${encodeURIComponent(filename)}`,
     ],
     type: 'popup',
     width: POPUP_WIDTH,
