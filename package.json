@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "npx web-ext run --browser-console",
-    "build": "npx web-ext build --overwrite-dest"
+    "build": "npx web-ext build --overwrite-dest",
+    "copy-modules": "cd scripts/ && copy_whatwg-mimetype.bat"
   },
   "main": "background.js",
   "webExt": {
@@ -21,6 +22,11 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-plugin-import": "^2.25.4",
-    "web-ext": "^6.7.0"
+    "web-ext": "^6.7.0",
+    "to-esm": "^2.9.1"
+  },
+  "dependencies": {
+    "content-disposition-header": "^0.6.0",
+    "whatwg-mimetype": "^3.0.0"
   }
 }

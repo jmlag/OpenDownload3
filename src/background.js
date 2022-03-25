@@ -1,3 +1,6 @@
+import { parse } from './modules/content-disposition-header/content-disposition-header.browser.esm.js';
+import mimeParse from './modules/whatwg-mimetype/parser.mjs';
+
 import defaultConfig from './common/defaultConfig.js';
 import {
   FILE_EXTENSIONS,
@@ -38,6 +41,11 @@ function getFilenameFromPath(path, separator = '/') {
   return (index !== -1) ? pathname.substring(index + 1) : pathname;
 }
 
+function mimetypeEssence(mimetype) {
+  const { type, subtype } = mimeParse(mimetype);
+  return `${type}/${subtype}`;
+}
+
 function getFilename(responseHeaders, url) {
   let includedMimetype = null;
   const filenameFromUrl = getFilenameFromPath(url);
@@ -48,15 +56,18 @@ function getFilename(responseHeaders, url) {
   for (let i = 0; i < responseHeaders.length; i++) {
     const { name, value } = responseHeaders[i];
     if (name.toLowerCase() === 'content-type') {
-      includedMimetype = MIMETYPES.some((mimetype) => value.startsWith(mimetype));
+      const respMimetype = mimetypeEssence(value);
+      includedMimetype = MIMETYPES.some((mimetype) => mimetype === respMimetype);
 
       if (!includedMimetype) return null;
       if (includedFiletype) return filenameFromUrl;
       if (filename) return filename;
     } else if (!includedFiletype && name.toLowerCase() === 'content-disposition') {
-      filename = new RegExp(`filename[*]?=(.*(?:\\${FILE_EXTENSIONS.join('|\\')}))(?:;|$)`, 'gi').exec(value)?.[1];
+      const { type, parameters } = parse(value);
+      filename = FILE_EXTENSIONS.some((ext) => parameters?.filename.toLowerCase().endsWith(ext))
+        ? parameters.filename : null;
 
-      if (!filename) return null;
+      if (type !== 'attachment' || !filename) return null;
       if (includedMimetype) return filename;
     }
   }
