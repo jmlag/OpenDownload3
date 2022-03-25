@@ -80,7 +80,7 @@ async function openPopup(downloadId, filename) {
   const { width, height, top, left } = await windows.get(windows.WINDOW_ID_CURRENT);
   const { id: windowId } = await windows.create({
     url: [
-      `popup/popup.html?id=${downloadId}&filename=${filename}`,
+      `popup/popup.html?id=${downloadId}&filename=${encodeURIComponent(filename)}`,
     ],
     type: 'popup',
     width: POPUP_WIDTH,
@@ -135,15 +135,17 @@ async function checkHeaders(resObj) {
   return EMPTY_OBJ;
 }
 
-async function initialize() {
-  try {
-    storage.sync.set({ config: defaultConfig });
-    const { installType, homepageUrl } = await management.getSelf();
-    if (installType !== 'development') {
-      tabs.create({ url: `${homepageUrl}#setup-and-install` });
+async function initialize({ reason, temporary }) {
+  if (reason === 'install') {
+    try {
+      storage.sync.set({ config: defaultConfig });
+      const { installType, homepageUrl } = await management.getSelf();
+      if (!temporary || installType !== 'development') {
+        tabs.create({ url: `${homepageUrl}#setup-and-install` });
+      }
+    } catch (error) {
+      console.error('Error initializing (OpenDownload3):', error.message, `\n${error.stack}`);
     }
-  } catch (error) {
-    console.error('Error initializing (OpenDownload3):', error.message, `\n${error.stack}`);
   }
 }
 
