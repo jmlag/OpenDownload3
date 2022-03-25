@@ -1,3 +1,5 @@
 node_modules/
 web-ext-artifacts/
 *.ignore.*
+src/modules/
+*/temp/
