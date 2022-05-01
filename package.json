@@ -1,6 +1,6 @@
 {
   "name": "opendownload3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Browser extension that enables you to automatically download executables to your temporary files folder and run them.",
   "license": "MPL-2.0",
   "homepage": "https://github.com/jmlag/OpenDownload3",
