@@ -13,6 +13,9 @@ export const MIMETYPES = [
   'application/exe',
   'application/x-dosexec',
   'application/x-unknown',
+  'application/x-msi',
+  // 'application/x-ole-storage', // disabled because Firefox does not recognize this mimetype and it can be opened natively
+  // 'application/windows-installer',
 ];
 
 export const CANCEL_RESPONSE = { cancel: true };
