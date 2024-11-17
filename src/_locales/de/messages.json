@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "OpenDownload3",
+    "description": "Name der Erweiterung"
+  },
+  "extensionDescription": {
+    "message": "Browsererweiterung, die es Ihnen erm\u00f6glicht, ausf\u00fchrbare Dateien automatisch in Ihren tempor\u00e4ren Ordner herunterzuladen und sie auszuf\u00fchren.",
+    "description": "Beschreibung der Erweiterung"
+  },
+  "openButton": {
+    "message": "\u00d6ffnen",
+    "description": "Text der Schaltfl\u00e4che \u00d6ffnen"
+  },
+  "deleteButton": {
+    "message": "L\u00f6schen",
+    "description": "Text der Schaltfl\u00e4che L\u00f6schen"
+  },
+  "dontOpenButton": {
+    "message": "Nicht \u00f6ffnen",
+    "description": "Text der Schaltfl\u00e4che Nicht \u00f6ffnen"
+  },
+  "showFolderButton": {
+    "message": "Im Ordner anzeigen",
+    "description": "Text der Schaltfl\u00e4che Im Ordner anzeigen"
+  },
+  "directorySaveLabel": {
+    "message": "Verzeichnis zum Speichern von ausf\u00fchrbaren Dateien:",
+    "description": "Beschriftung f\u00fcr aktuelles Speicherverzeichnis"
+  },
+  "newDirectoryLabel": {
+    "message": "Neues Verzeichnis zum Speichern von ausf\u00fchrbaren Dateien:",
+    "description": "Beschriftung f\u00fcr neues Verzeichnisfeld"
+  },
+  "showSaveAsLabel": {
+    "message": "Dialog \"Speichern unter\" vor dem Herunterladen anzeigen:",
+    "description": "Beschriftung f\u00fcr das Kontrollk\u00e4stchen Speichern unter"
+  },
+  "saveButton": {
+    "message": "Speichern",
+    "description": "Text der Schaltfl\u00e4che Speichern"
+  },
+  "helpLink": {
+    "message": "Hilfe",
+    "description": "Text des Hilfelinks"
+  },
+  "unsavedChanges": {
+    "message": "Nicht gespeicherte \u00c4nderungen",
+    "description": "Meldung f\u00fcr nicht gespeicherte \u00c4nderungen"
+  },
+  "changesSaved": {
+    "message": "\u00c4nderungen gespeichert!",
+    "description": "Meldung f\u00fcr gespeicherte \u00c4nderungen"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "OpenDownload3",
+    "description": "Имя расширения"
+  },
+  "extensionDescription": {
+    "message": "Расширение для браузера, которое позволяет автоматически загружать исполняемые файлы в вашу временную папку и запускать их.",
+    "description": "Описание расширения"
+  },
+  "openButton": {
+    "message": "Открыть",
+    "description": "Текст кнопки Открыть"
+  },
+  "deleteButton": {
+    "message": "Удалить",
+    "description": "Текст кнопки Удалить"
+  },
+  "dontOpenButton": {
+    "message": "Не открывать",
+    "description": "Текст кнопки Не открывать"
+  },
+  "showFolderButton": {
+    "message": "Показать в папке",
+    "description": "Текст кнопки Показать в папке"
+  },
+  "directorySaveLabel": {
+    "message": "Директория для сохранения исполняемых файлов:",
+    "description": "Этикетка для текущей директории сохранения"
+  },
+  "newDirectoryLabel": {
+    "message": "Новая директория для сохранения исполняемых файлов:",
+    "description": "Этикетка для поля новой директории"
+  },
+  "showSaveAsLabel": {
+    "message": "Показать диалог \"Сохранить как\" перед загрузкой:",
+    "description": "Этикетка для флажка Сохранить как"
+  },
+  "saveButton": {
+    "message": "Сохранить",
+    "description": "Текст кнопки Сохранить"
+  },
+  "helpLink": {
+    "message": "Помощь",
+    "description": "Текст ссылки Помощь"
+  },
+  "unsavedChanges": {
+    "message": "Несохраненные изменения",
+    "description": "Сообщение для несохраненных изменений"
+  },
+  "changesSaved": {
+    "message": "Изменения сохранены!",
+    "description": "Сообщение для сохраненных изменений"
+  }
+}

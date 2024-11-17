@@ -1,0 +1,55 @@
+
+{
+  "extensionName": {
+    "message": "OpenDownload3",
+    "description": "Nome dell'estensione"
+  },
+  "extensionDescription": {
+    "message": "Estensione del browser che ti permette di scaricare automaticamente degli eseguibili nella cartella dei file temporanei ed eseguirli.",
+    "description": "Descrizione dell'estensione"
+  },
+  "openButton": {
+    "message": "Apri",
+    "description": "Testo del pulsante Apri"
+  },
+  "deleteButton": {
+    "message": "Elimina",
+    "description": "Testo del pulsante Elimina"
+  },
+  "dontOpenButton": {
+    "message": "Non aprire",
+    "description": "Testo del pulsante Non aprire"
+  },
+  "showFolderButton": {
+    "message": "Mostra nella cartella",
+    "description": "Testo del pulsante Mostra nella cartella"
+  },
+  "directorySaveLabel": {
+    "message": "Directory per salvare gli eseguibili:",
+    "description": "Etichetta per la directory di salvataggio corrente"
+  },
+  "newDirectoryLabel": {
+    "message": "Nuova directory per salvare gli eseguibili:",
+    "description": "Etichetta per l'input della nuova directory"
+  },
+  "showSaveAsLabel": {
+    "message": "Mostra la finestra di dialogo \"Salva con nome\" prima del download:",
+    "description": "Etichetta per la casella di controllo Salva con nome"
+  },
+  "saveButton": {
+    "message": "Salva",
+    "description": "Testo del pulsante Salva"
+  },
+  "helpLink": {
+    "message": "Aiuto",
+    "description": "Testo del link Aiuto"
+  },
+  "unsavedChanges": {
+    "message": "Modifiche non salvate",
+    "description": "Messaggio per modifiche non salvate"
+  },
+  "changesSaved": {
+    "message": "Modifiche salvate!",
+    "description": "Messaggio per modifiche salvate"
+  }
+}
