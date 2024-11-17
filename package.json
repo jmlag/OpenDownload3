@@ -18,15 +18,15 @@
     "sourceDir": "src"
   },
   "devDependencies": {
-    "eslint": "^8.10.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-import-resolver-node": "^0.3.6",
-    "eslint-plugin-import": "^2.25.4",
-    "web-ext": "^6.7.0",
-    "to-esm": "^2.9.1"
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-import-resolver-node": "latest",
+    "eslint-plugin-import": "latest",
+    "web-ext": "latest",
+    "to-esm": "latest"
   },
   "dependencies": {
     "content-disposition-header": "^0.6.0",
-    "whatwg-mimetype": "^3.0.0"
+    "whatwg-mimetype": "^4.0.0"
   }
 }
