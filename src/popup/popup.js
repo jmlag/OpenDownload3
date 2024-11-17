@@ -1,3 +1,5 @@
+import { getMessage } from '../utils/i18n.js'; // Updated import path
+
 // based on: https://github.com/mdn/webextensions-examples/tree/master/latest-download
 const { downloads } = browser;
 
@@ -38,9 +40,19 @@ function showFolder(downloadId) {
   }
 }
 
+function initializeI18n() {
+  document.querySelectorAll('[data-i18n]').forEach((element) => {
+    const key = element.getAttribute('data-i18n');
+    // eslint-disable-next-line no-param-reassign
+    element.textContent = getMessage(key);
+  });
+}
+
 function initializeLatestDownload(searchParams) {
   const downloadId = parseInt(searchParams.get('id'), 10);
   const filename = decodeURIComponent(searchParams.get('filename'));
+
+  initializeI18n(); // Move i18n init here before adding event listeners
 
   document.getElementById('url').textContent = filename;
   downloads.getFileIcon(downloadId).then(updateIconUrl, (error) => {
@@ -58,4 +70,5 @@ function initializeLatestDownload(searchParams) {
   document.getElementById('show-folder').addEventListener('click', () => { showFolder(downloadId); });
 }
 
+// Remove the DOMContentLoaded wrapper
 initializeLatestDownload(new URLSearchParams(window.location.search));

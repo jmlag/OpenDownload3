@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "OpenDownload3",
+    "description": "Nombre de la extensión"
+  },
+  "extensionDescription": {
+    "message": "Extensión del navegador que permite descargar automáticamente ejecutables a tu carpeta temporal y ejecutarlos.",
+    "description": "Descripción de la extensión"
+  },
+  "openButton": {
+    "message": "Abrir",
+    "description": "Texto del botón abrir"
+  },
+  "deleteButton": {
+    "message": "Eliminar",
+    "description": "Texto del botón eliminar"
+  },
+  "dontOpenButton": {
+    "message": "No abrir",
+    "description": "Texto del botón no abrir"
+  },
+  "showFolderButton": {
+    "message": "Mostrar en carpeta",
+    "description": "Texto del botón mostrar en carpeta"
+  },
+  "directorySaveLabel": {
+    "message": "Directorio para guardar ejecutables:",
+    "description": "Etiqueta del directorio actual"
+  },
+  "newDirectoryLabel": {
+    "message": "Nuevo directorio para guardar ejecutables:",
+    "description": "Etiqueta para nuevo directorio"
+  },
+  "showSaveAsLabel": {
+    "message": "Mostrar diálogo \"Guardar como\" antes de descargar:",
+    "description": "Etiqueta para la casilla guardar como"
+  },
+  "saveButton": {
+    "message": "Guardar",
+    "description": "Texto del botón guardar"
+  },
+  "helpLink": {
+    "message": "Ayuda",
+    "description": "Texto del enlace de ayuda"
+  },
+  "unsavedChanges": {
+    "message": "Cambios sin guardar",
+    "description": "Mensaje para cambios sin guardar"
+  },
+  "changesSaved": {
+    "message": "¡Cambios guardados!",
+    "description": "Mensaje para cambios guardados"
+  }
+}

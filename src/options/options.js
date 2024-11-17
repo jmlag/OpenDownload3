@@ -1,9 +1,10 @@
+import { getMessage } from '../utils/i18n.js';  // Updated import path
 import defaultConfig, { configIdMap } from '../common/defaultConfig.js';
 
 const { storage, management } = browser;
 
-const UNSAVED_MSG = 'Changes unsaved';
-const SAVED_MSG = 'Changes saved!';
+const UNSAVED_MSG = getMessage('unsavedChanges');
+const SAVED_MSG = getMessage('changesSaved');
 
 let savedConfig;
 
@@ -45,7 +46,15 @@ function saveOptions(e) {
   e.preventDefault();
 }
 
+function initializeI18n() {
+  document.querySelectorAll('[data-i18n]').forEach(element => {
+    const key = element.getAttribute('data-i18n');
+    element.textContent = getMessage(key);
+  });
+}
+
 async function populateOptionsPage() {
+  initializeI18n();
   clearUnsavedMsg();
 
   const { config } = (await storage.sync.get('config'));

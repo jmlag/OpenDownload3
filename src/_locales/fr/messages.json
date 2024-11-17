@@ -1,0 +1,55 @@
+
+{
+  "extensionName": {
+    "message": "OpenDownload3",
+    "description": "Nom de l'extension"
+  },
+  "extensionDescription": {
+    "message": "Extension de navigateur qui permet de télécharger automatiquement des exécutables dans votre dossier temporaire et de les exécuter.",
+    "description": "Description de l'extension"
+  },
+  "openButton": {
+    "message": "Ouvrir",
+    "description": "Texte du bouton ouvrir"
+  },
+  "deleteButton": {
+    "message": "Supprimer",
+    "description": "Texte du bouton supprimer"
+  },
+  "dontOpenButton": {
+    "message": "Ne pas ouvrir",
+    "description": "Texte du bouton ne pas ouvrir"
+  },
+  "showFolderButton": {
+    "message": "Afficher dans le dossier",
+    "description": "Texte du bouton afficher dans le dossier"
+  },
+  "directorySaveLabel": {
+    "message": "Dossier de sauvegarde des exécutables :",
+    "description": "Étiquette du dossier actuel"
+  },
+  "newDirectoryLabel": {
+    "message": "Nouveau dossier de sauvegarde des exécutables :",
+    "description": "Étiquette pour le nouveau dossier"
+  },
+  "showSaveAsLabel": {
+    "message": "Afficher la boîte de dialogue \"Enregistrer sous\" avant le téléchargement :",
+    "description": "Étiquette pour la case enregistrer sous"
+  },
+  "saveButton": {
+    "message": "Enregistrer",
+    "description": "Texte du bouton enregistrer"
+  },
+  "helpLink": {
+    "message": "Aide",
+    "description": "Texte du lien d'aide"
+  },
+  "unsavedChanges": {
+    "message": "Modifications non enregistrées",
+    "description": "Message pour modifications non enregistrées"
+  },
+  "changesSaved": {
+    "message": "Modifications enregistrées !",
+    "description": "Message pour modifications enregistrées"
+  }
+}

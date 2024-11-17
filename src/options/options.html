@@ -9,24 +9,24 @@
 
 <body>
   <p>
-    Directory to save executables: <b id="curr-exe-dir-path">&lt;Default Download Folder&gt;/</b>
+    <span data-i18n="directorySaveLabel">Directory to save executables:</span> <b id="curr-exe-dir-path">&lt;Default Download Folder&gt;/</b>
     <b id="curr-exe-dir"></b>
   </p>
 
   <form class="browser-style">
     <div class="table-row">
-      <label for="exe-dir" class="table-cell">New directory to save executables:</label>
+      <label for="exe-dir" class="table-cell" data-i18n="newDirectoryLabel">New directory to save executables:</label>
       <input id="exe-dir" type="text" class="config-inputs table-cell">
     </div>
     <br>
     <div class="table-row">
-      <label for="show-save-as" class="table-cell">Show "Save As" dialog before downloading:</label>
+      <label for="show-save-as" class="table-cell" data-i18n="showSaveAsLabel">Show "Save As" dialog before downloading:</label>
       <input id="show-save-as" type="checkbox" class="config-inputs table-cell">
     </div>
     <br>
-    <button type="submit" class="browser-style table-cell">Save</button>
+    <button type="submit" class="browser-style table-cell" data-i18n="saveButton">Save</button>
     &nbsp;
-    <a id="help">Help</a>
+    <a id="help" data-i18n="helpLink">Help</a>
   </form>
 
   <b id="is-saved"></b>

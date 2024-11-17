@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "OpenDownload3",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Browser extension that enables you to automatically download executables to your temporary files folder and run them.",
+    "description": "Description of the extension"
+  },
+  "openButton": {
+    "message": "Open",
+    "description": "Open button text"
+  },
+  "deleteButton": {
+    "message": "Delete",
+    "description": "Delete button text"
+  },
+  "dontOpenButton": {
+    "message": "Don't open",
+    "description": "Don't open button text"
+  },
+  "showFolderButton": {
+    "message": "Show in folder",
+    "description": "Show in folder button text"
+  },
+  "directorySaveLabel": {
+    "message": "Directory to save executables:",
+    "description": "Label for current save directory"
+  },
+  "newDirectoryLabel": {
+    "message": "New directory to save executables:",
+    "description": "Label for new directory input"
+  },
+  "showSaveAsLabel": {
+    "message": "Show \"Save As\" dialog before downloading:",
+    "description": "Label for save as checkbox"
+  },
+  "saveButton": {
+    "message": "Save",
+    "description": "Save button text"
+  },
+  "helpLink": {
+    "message": "Help",
+    "description": "Help link text"
+  },
+  "unsavedChanges": {
+    "message": "Changes unsaved",
+    "description": "Message for unsaved changes"
+  },
+  "changesSaved": {
+    "message": "Changes saved!",
+    "description": "Message for saved changes"
+  }
+}
