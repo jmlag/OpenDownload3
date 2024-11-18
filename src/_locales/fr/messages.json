@@ -50,5 +50,9 @@
   "changesSaved": {
     "message": "Modifications enregistrées !",
     "description": "Message pour modifications enregistrées"
+  },
+  "defaultDownloadFolder": {
+    "message": "<Dossier de téléchargement par défaut>",
+    "description": "Étiquette pour le dossier de téléchargement par défaut"
   }
 }

@@ -50,5 +50,9 @@
   "changesSaved": {
     "message": "Changes saved!",
     "description": "Message for saved changes"
+  },
+  "defaultDownloadFolder": {
+    "message": "<Default Download Folder>",
+    "description": "Label for defaults download folder"
   }
 }

@@ -1,4 +1,3 @@
-
 {
   "extensionName": {
     "message": "OpenDownload3",
@@ -51,5 +50,9 @@
   "changesSaved": {
     "message": "Modifiche salvate!",
     "description": "Messaggio per modifiche salvate"
+  },
+  "defaultDownloadFolder": {
+    "message": "<Cartella di download predefinita>",
+    "description": "Etichetta per la cartella di download predefinita"
   }
 }

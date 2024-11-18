@@ -50,5 +50,9 @@
   "changesSaved": {
     "message": "¡Cambios guardados!",
     "description": "Mensaje para cambios guardados"
+  },
+  "defaultDownloadFolder": {
+    "message": "<Carpeta de descargas predeterminada>",
+    "description": "Etiqueta para la carpeta de descargas predeterminada"
   }
 }

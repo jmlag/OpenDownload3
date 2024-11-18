@@ -50,5 +50,9 @@
   "changesSaved": {
     "message": "\u00c4nderungen gespeichert!",
     "description": "Meldung f\u00fcr gespeicherte \u00c4nderungen"
+  },
+  "defaultDownloadFolder": {
+    "message": "<Standard-Download-Ordner>",
+    "description": "Beschriftung für Standard-Download-Ordner"
   }
 }
