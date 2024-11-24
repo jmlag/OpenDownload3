@@ -1,0 +1,59 @@
+
+{
+  "extensionName": {
+    "message": "OpenDownload3",
+    "description": "拡張機能の名前"
+  },
+  "extensionDescription": {
+    "message": "実行ファイルを一時ファイルフォルダに自動的にダウンロードして実行できるブラウザ拡張機能。",
+    "description": "拡張機能の説明"
+  },
+  "openButton": {
+    "message": "開く",
+    "description": "開くボタンのテキスト"
+  },
+  "deleteButton": {
+    "message": "削除",
+    "description": "削除ボタンのテキスト"
+  },
+  "dontOpenButton": {
+    "message": "開かない",
+    "description": "開かないボタンのテキスト"
+  },
+  "showFolderButton": {
+    "message": "フォルダで表示",
+    "description": "フォルダで表示ボタンのテキスト"
+  },
+  "directorySaveLabel": {
+    "message": "実行ファイルを保存するディレクトリ：",
+    "description": "現在の保存ディレクトリのラベル"
+  },
+  "newDirectoryLabel": {
+    "message": "実行ファイルを保存する新しいディレクトリ：",
+    "description": "新しいディレクトリ入力のラベル"
+  },
+  "showSaveAsLabel": {
+    "message": "ダウンロード前に「名前を付けて保存」ダイアログを表示：",
+    "description": "「名前を付けて保存」チェックボックスのラベル"
+  },
+  "saveButton": {
+    "message": "保存",
+    "description": "保存ボタンのテキスト"
+  },
+  "helpLink": {
+    "message": "ヘルプ",
+    "description": "ヘルプリンクのテキスト"
+  },
+  "unsavedChanges": {
+    "message": "変更が保存されていません",
+    "description": "保存されていない変更のメッセージ"
+  },
+  "changesSaved": {
+    "message": "変更が保存されました！",
+    "description": "保存された変更のメッセージ"
+  },
+  "defaultDownloadFolder": {
+    "message": "<デフォルトのダウンロードフォルダ>",
+    "description": "デフォルトのダウンロードフォルダのラベル"
+  }
+}
